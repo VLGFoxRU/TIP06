@@ -40,6 +40,10 @@ pz6-gorm/
 ```
 # Краткое описание
 
+ORM (Object-Relational Mapping) --- это технология сопоставления объектно-ориентированных структур программы с таблицами реляционной БД. 
+
+GORM помог путём значительного упрощения кода: вместо написания параметризованных SQL-запросов с плейсхолдерами, разработчик работает со структурами Go, а GORM автоматически генерирует SQL. Кроме того, GORM предоставляет встроенную поддержку миграций (AutoMigrate), связей между таблицами (1:N, M:N) и безопасной подгрузки связанных данных (Preload), что экономит сотни строк кода. GORM также защищает от SQL-инъекций благодаря встроенной параметризации.
+
 Используемый DB_DSN:
 ```
 DB_DSN "host=127.0.0.1 user=postgres password=1234 dbname=pz6_gorm port=5433 sslmode=disable"
@@ -53,20 +57,19 @@ DB_DSN "host=127.0.0.1 user=postgres password=1234 dbname=pz6_gorm port=5433 ssl
 
 Создание пользователя:
 
-
+<img width="1361" height="749" alt="image" src="https://github.com/user-attachments/assets/7ddd9f40-d0bb-47ea-9510-97f2a4dcad17" />
 
 Создание заметки:
 
-
+<img width="1371" height="883" alt="image" src="https://github.com/user-attachments/assets/5ddfe2d6-de96-42ae-807e-87ad1408245b" />
 
 Получение заметки:
 
-
+<img width="1371" height="872" alt="image" src="https://github.com/user-attachments/assets/11b66fa4-7759-4aab-8291-c3aedb3907d5" />
 
 Схема БД:
 
 <img width="739" height="790" alt="image" src="https://github.com/user-attachments/assets/e1195327-01a2-43d5-8c4c-1ac36e1bcc57" />
-
 
 # Краткие ответы
 
