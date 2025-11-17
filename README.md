@@ -23,13 +23,20 @@
 # Структура проекта
 Дерево структуры проекта: 
 ```
-pz5-db/
-├── .env
-├── db.go
+pz6-gorm/
+├── internal/
+│   ├── db/
+│   │   └── postgres.go
+│   ├── models/
+│   │   └── models.go
+│   └── http/
+│       ├── router.go
+│       └── handlers.go
+├── cmd/
+│   └── server/
+│       └── main.go
 ├── go.mod
-├── go.sum
-├── main.go
-└── repository.go
+└── go.sum
 ```
 # Краткое описание
 
@@ -37,7 +44,7 @@ pz5-db/
 
 # Скриншоты
 
-Создание пользователя
+Создание пользователя:
 
 
 Создание заметки:
