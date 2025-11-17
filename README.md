@@ -40,20 +40,32 @@ pz6-gorm/
 ```
 # Краткое описание
 
-
+Используемый DB_DSN:
+```
+DB_DSN "host=127.0.0.1 user=postgres password=1234 dbname=pz6_gorm port=5433 sslmode=disable"
+```
 
 # Скриншоты
 
+Проверка здоровья:
+
+<img width="1376" height="727" alt="image" src="https://github.com/user-attachments/assets/28781ece-b6fd-4ae7-8e04-c8dd9cade751" />
+
 Создание пользователя:
+
 
 
 Создание заметки:
 
 
+
 Получение заметки:
 
 
+
 Схема БД:
+
+<img width="739" height="790" alt="image" src="https://github.com/user-attachments/assets/e1195327-01a2-43d5-8c4c-1ac36e1bcc57" />
 
 
 # Краткие ответы
